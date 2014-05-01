@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title><%= @title %></title>
+  <link rel="shortcut icon" href="/static/favicon.ico" />
+</head>
+<body>
+  <h3>Welcome to Dwitter!</h3>
+  <form action="/post" method="post">
+     <h4>What are you up to?</h4>
+     <textarea placeholder="Stuff dude, stuff..." name='content'></textarea>
+     <button>Dweet it!</button>
+  </form>
+</body>
+</html>
