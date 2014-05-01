@@ -18,6 +18,7 @@ defmodule Dwitter.Mixfile do
 
   defp deps do
     [ { :cowboy, github: "extend/cowboy" },
-      { :dynamo, "~> 0.1.0-dev", github: "dynamo/dynamo" } ]
+      { :dynamo, "~> 0.1.0-dev", github: "dynamo/dynamo" },
+      { :amnesia, "~> 0.1.0", github: "meh/amnesia" } ]
   end
 end
