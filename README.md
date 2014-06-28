@@ -1,3 +1,3 @@
-# Code test from Elixir-sip
+# Learning Elixir
 
-Playing with Elixir-lang using the Elixir sip screencast.
+Contains the code made while following tutorials, books, screecasts on Elixir.
