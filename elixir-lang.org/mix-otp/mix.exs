@@ -12,7 +12,8 @@ defmodule KV.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: []]
+    [applications: [],
+     mod: {KV, []}]
   end
 
   # Dependencies can be hex.pm packages:
