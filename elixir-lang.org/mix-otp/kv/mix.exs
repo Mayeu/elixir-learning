@@ -26,6 +26,6 @@ defmodule KV.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [{:plug, "~> 0.5.0"}]
   end
 end
