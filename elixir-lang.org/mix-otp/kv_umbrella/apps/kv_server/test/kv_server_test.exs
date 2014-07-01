@@ -1,4 +1,4 @@
-defmodule KvServerTest do
+defmodule KVServerTest do
   use ExUnit.Case
 
   test "the truth" do

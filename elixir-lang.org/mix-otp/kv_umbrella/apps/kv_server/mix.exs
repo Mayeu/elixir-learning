@@ -1,4 +1,4 @@
-defmodule KvServer.Mixfile do
+defmodule KVServer.Mixfile do
   use Mix.Project
 
   def project do
@@ -15,7 +15,7 @@ defmodule KvServer.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [applications: [:kv],
-     mod: {KvServer, []}]
+     mod: {KVServer, []}]
   end
 
   # Dependencies can be hex.pm packages:
