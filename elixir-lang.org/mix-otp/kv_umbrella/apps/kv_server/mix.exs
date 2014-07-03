@@ -14,7 +14,7 @@ defmodule KVServer.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:kv],
+    [applications: [:pipe, :kv],
      mod: {KVServer, []}]
   end
 
@@ -32,6 +32,7 @@ defmodule KVServer.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:kv, in_umbrella: true}]
+    [{:kv, in_umbrella: true},
+     {:pipe, github: "batate/elixir-pipes"}]
   end
 end

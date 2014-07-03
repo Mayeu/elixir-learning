@@ -1,0 +1,1 @@
+%{"pipe": {:git, "git://github.com/batate/elixir-pipes.git", "4b4646c0fc50b8ddeff780847fc487f3bcefdacf", []}}
